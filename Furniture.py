@@ -6,12 +6,7 @@ class Furniture:
         self.class_of_furniture = class_of_furniture
 
 
-    # def buy(self):
-    #     return f'вы купили {self.type} за {self.prise} рублей'
-    #
-    # def discount(self, discount):
-    #     self.prise -= (self.prise / 100) * discount
-    #     return f'вы купили {self.type} за {self.prise} рублей cо скидкой в {discount} процентов'
+
 
 class Chair(Furniture):
     def __init__(self, material, class_of_furniture, address_of_magazine, prise,count_legs):
