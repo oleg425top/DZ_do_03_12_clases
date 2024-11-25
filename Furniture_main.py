@@ -1,9 +1,13 @@
-from Furniture import Furniture
+from Furniture import Furniture, Chair, Closet
 
 
-chair = Furniture('стул', 'дсп', 1500)
-closet = Furniture('шкаф', 'дерево', 25000)
+
+closet_new = Closet('ЛДСП', 'шкаф', 'Ленина 48', 50000, 10)
+print(closet_new)
+print(closet_new.buy())
+print(closet_new.discount(25))
+chair = Chair('пластик', 'стул', 'Ленина 48', 2000, 4)
+print()
 print(chair)
+print(chair.buy())
 print(chair.diskount(15))
-print(closet)
-print(closet.diskount(25))
