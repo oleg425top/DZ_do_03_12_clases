@@ -16,9 +16,3 @@ class Furniture:
         self.prise -= (self.prise / 100) * diskount
         return f'вы купили {self.type} за {self.prise} рублей cо скидкой в {diskount} процентов'
 
-chair = Furniture('стул', 'дсп', 1500)
-closet = Furniture('шкаф', 'дерево', 25000)
-print(chair)
-print(chair.diskount(15))
-print(closet)
-print(closet.diskount(25))
